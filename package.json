@@ -1,0 +1,26 @@
+{
+  "name": "firebase-rpc",
+  "description": "Asynchronously execute remote functions through firebase.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/doowb/firebase-rpc",
+  "author": "Brian Woodward (https://github.com/doowb)",
+  "repository": "doowb/firebase-rpc",
+  "bugs": {
+    "url": "https://github.com/doowb/firebase-rpc/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "generategenerator"
+  ]
+}
