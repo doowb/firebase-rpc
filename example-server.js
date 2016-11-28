@@ -21,21 +21,21 @@ server.use(runtimes());
 server.task('foo', function(cb) {
   var opts = extend({timeout: 200}, this.options);
   setTimeout(function() {
-    cb(null, {foo: 'foo'});
+    cb(null, {foo: (opts.foo || 'foo').toUpperCase()});
   }, opts.timeout);
 });
 
 server.task('bar', function(cb) {
   var opts = extend({timeout: 200}, this.options);
   setTimeout(function() {
-    cb(null, {bar: 'bar'});
+    cb(null, {bar: (opts.bar || 'bar').toUpperCase()});
   }, opts.timeout);
 });
 
 server.task('baz', function(cb) {
   var opts = extend({timeout: 200}, this.options);
   setTimeout(function() {
-    cb(null, {baz: 'baz'});
+    cb(null, {baz: (opts.baz || 'baz').toUpperCase()});
   }, opts.timeout);
 });
 

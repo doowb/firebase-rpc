@@ -24,7 +24,9 @@ function random(arr) {
 function run() {
   var task = random(tasks);
   var timeout = random(timeouts);
-  client.run(task, {timeout: timeout}, function(err, results) {
+  var data = {timeout: timeout};
+  data[task] = task;
+  client.run(task, data, function(err, results) {
     console.log();
     if (err) return console.error(err);
     console.log(results);
