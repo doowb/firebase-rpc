@@ -35,7 +35,19 @@
     "gulp-format-md": "^0.1.11"
   },
   "keywords": [
-    "generategenerator"
+    "cron",
+    "execution",
+    "firebase",
+    "firebase-cron",
+    "firebase-queue",
+    "firebase-rpc",
+    "function",
+    "functions",
+    "method",
+    "methods",
+    "queue",
+    "remote",
+    "rpc"
   ],
   "verb": {
     "toc": false,
@@ -48,6 +60,24 @@
     ],
     "lint": {
       "reflinks": true
-    }
+    },
+    "related": {
+      "list": [
+        "assemble",
+        "composer",
+        "firebase-cron",
+        "generate",
+        "verb"
+      ]
+    },
+    "reflinks": [
+      "assemble",
+      "composer",
+      "firebase",
+      "firebase-queue",
+      "generate",
+      "verb",
+      "verb-generate-readme"
+    ]
   }
 }
