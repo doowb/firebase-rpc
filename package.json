@@ -31,9 +31,23 @@
   },
   "devDependencies": {
     "base-runtimes": "^0.2.0",
-    "firebase-admin": "^4.0.3"
+    "firebase-admin": "^4.0.3",
+    "gulp-format-md": "^0.1.11"
   },
   "keywords": [
     "generategenerator"
-  ]
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
 }
